@@ -94,7 +94,7 @@ PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ ADD VEGETA TO YOUR GROUP ☑",
+                            text="SUMMON ME",
                             url=f"t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                      [
@@ -102,8 +102,8 @@ buttons = [
                        InlineKeyboardButton(text="UPDATES",  url=f"https://t.me/{UPDATES_CHANNEL}"),
                     ],
                    [
-                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/nandhabots"),
-                       InlineKeyboardButton(text="LOGS", url=f"https://t.me/vegetalogs"),
+                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/BANKAI_NETWORK"),
+                       InlineKeyboardButton(text="DEV", url=f"https://t.me/harsh_un"),
                 ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
          ),
     ],
