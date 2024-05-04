@@ -94,17 +94,17 @@ PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
 buttons = [
     [
         InlineKeyboardButton(
-                            text="SUMMON ME",
+                            text="sᴜᴍᴍᴏɴ ᴍᴇ",
                             url=f"t.me/{BOT_USERNAME}?startgroup=true"),
                     ],
                      [
-                       InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
-                       InlineKeyboardButton(text="UPDATES",  url=f"https://t.me/{UPDATES_CHANNEL}"),
+                       InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+                       InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs",  url=f"https://t.me/{UPDATES_CHANNEL}"),
                     ],
                    [
-                       InlineKeyboardButton(text="NETWORK", url=f"https://t.me/BANKAI_NETWORK"),
-                       InlineKeyboardButton(text="DEV", url=f"https://t.me/harsh_un"),
-                ],[ InlineKeyboardButton(text="COMMANDS HELP", callback_data="help_back"
+                       InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url=f"https://t.me/BANKAI_NETWORK"),
+                       InlineKeyboardButton(text="ᴅᴇᴠ", url=f"https://t.me/harsh_un"),
+                ],[ InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"
          ),
     ],
 ] 
@@ -117,13 +117,13 @@ Below Click the module you know about module commands!*
 """
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """*don't need donate I'm free for everyone add your group's in @VegetaRobot this is my donate🙂*"""
-HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/1cbafa58dda18528f9e0c.mp4"
+DONATE_STRING = """*don't need donate I'm free for everyone add your group's in @dazai_rbot this is my donate🙂*"""
+HELP_IMG= "https://telegra.ph/file/3cb2aaeb08021c02feb29.jpg"
+GROUPSTART_IMG= "https://telegra.ph/file/3cb2aaeb08021c02feb29.jpg"
 
-VEGETA_IMG = ( "https://telegra.ph//file/a47f16c936dbbd4165399.jpg",
-               "https://telegra.ph//file/5026650d5e3f0b83c6d29.jpg",
-               "https://telegra.ph/file/561fa547f3c4940c95ddf.jpg",)       
+VEGETA_IMG = ( "https://telegra.ph/file/e2b10d66f725184d73e38.jpg",
+               "https://telegra.ph/file/565d0664230aab507ab22.jpg",
+               "https://telegra.ph/file/3694bdb0d45ffcab58ca5.jpg",)       
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -186,8 +186,8 @@ def send_help(chat_id, text, keyboard=None):
 
 def test(update: Update, context: CallbackContext):
     pprint(eval(str(update)))
-    update.effective_message.reply_text("Hola tester! _I_ *have* `markdown`", parse_mode=ParseMode.MARKDOWN)
-    update.effective_message.reply_text("This person edited a message")
+     # update.effective_message.reply_text("Hola tester! _I_ *have* `markdown`", parse_mode=ParseMode.MARKDOWN)
+    update.effective_message.reply_text("This person edited a message🤡")
     print(update.effective_message)
 
 
@@ -233,15 +233,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_animation(
-            GROUPSTART_IMG, caption= "*hello!\n ┗► {} ◄┛,*\n*Super Saiyan here*\n*Power lavel time* : {} ".format(
+            GROUPSTART_IMG, caption= "*ʜᴇʟᴏᴡᴡ!\n ┗► {} ◄┛,*\n*ᴅᴇᴛᴇᴄᴛɪᴠᴇ ᴅᴀᴢᴀɪ ɪs ʜᴇʀᴇ*\n*ᴜᴘᴛɪᴍᴇ* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="SUPPORT", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="UPDATES", url=f"t.me/{UPDATES_CHANNEL}"),
+                  InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
+                  InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"t.me/{UPDATES_CHANNEL}"),
                   ]
                 ]
             ),
@@ -664,7 +664,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[SUPER SAIYAN VEGETA IS BACK](https://telegra.ph/file/d3db0babad0d1729c5f59.jpg)", parse_mode=ParseMode.MARKDOWN) 
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}","[IM READY FOR A NEW MISSION](https://telegra.ph/file/c82f7d1b84aecaaf7f43a.jpg)", parse_mode=ParseMode.MARKDOWN) 
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
