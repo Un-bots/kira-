@@ -21,21 +21,21 @@ class Config(object):
     API_HASH = "awew"
     TOKEN = "wow"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     SQLALCHEMY_DATABASE_URI = "" #Use Your ElephantSQL
-    OWNER_ID = 1491497760  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "nandhaxd"
-    SUPPORT_CHAT = 'vegetasupport'  #Your own group for support, do not add the @
-    UPDATES_CHANNEL = 'vegetaUpdates' #Your own channel for Updates of bot, Do not add @
-    JOIN_LOGGER = -1001543354286  #Prints any new group the bot is added to, prints just the name and ID.
+    OWNER_ID = 6253265083  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "harsh_un"
+    SUPPORT_CHAT = 'kira_suport'  #Your own group for support, do not add the @
+    UPDATES_CHANNEL = 'unb_info' #Your own channel for Updates of bot, Do not add @
+    JOIN_LOGGER = -1002040932096 #Prints any new group the bot is added to, prints just the name and ID.
     REM_BG_API_KEY = "dxsh728mZMDmj4ijSZCNPZig"
-    EVENT_LOGS = -1001543354286  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    EVENT_LOGS = -1002040932096 #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     LOAD = []
     NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
     WEBHOOK = None
     INFOPIC = True
     URL = None
     SPAMWATCH_API = ""  # go to support.spamwat.ch to get key -
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
-    BOT_ID = "2128359921"
+    SPAMWATCH_SUPPORT_CHAT = "@kira_Suport"
+    BOT_ID = "7069898933"
     
     DRAGONS = get_user_list('elevated_users.json', 'sudos')
 
