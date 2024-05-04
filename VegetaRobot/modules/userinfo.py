@@ -424,7 +424,7 @@ def set_about_me(update: Update, context: CallbackContext):
                 "The info needs to be under {} characters! You have {}.".format(
                     MAX_MESSAGE_LENGTH // 4, len(info[1])))
 
-SATS_IMG = "https://telegra.ph/file/c478675cd20503653a232.mp4"
+SATS_IMG = "https://telegra.ph/file/c82f7d1b84aecaaf7f43a.jpg"
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
