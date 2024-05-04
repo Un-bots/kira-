@@ -9,7 +9,7 @@ from VegetaRobot import StartTime, dispatcher
 from VegetaRobot.modules.helper_funcs.chat_status import sudo_plus
 from VegetaRobot.modules.disable import DisableAbleCommandHandler
 
-PING_IMG="https://telegra.ph/file/7f09ce39158cf595779b1.jpg"
+PING_IMG="https://telegra.ph/file/c82f7d1b84aecaaf7f43a.jpg"
 
 sites_list = {
     "Telegram": "https://api.telegram.org",
