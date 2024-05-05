@@ -125,12 +125,13 @@ HELP_STRINGS = """ » /help: PM's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
 
 HELP_MSG = "Cʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴀɴᴜ ɪɴ ʏᴏᴜʀ ᴘᴍ."
 DONATE_STRING = """*ᴅᴏɴ'ᴛ ɴᴇᴇᴅ ᴅᴏɴᴀᴛᴇ I'ᴍ ғʀᴇᴇ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ ᴀᴅᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ɪɴ @dazai_rbot ᴛʜɪs ɪs ᴍʏ ᴅᴏɴᴀᴛᴇ🙂*"""
-HELP_IMG= "https://telegra.ph/file/3cb2aaeb08021c02feb29.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/3cb2aaeb08021c02feb29.jpg"
+HELP_IMG= "https://graph.org/file/8f14cf3d56319bf00f9c0.mp4"
+GROUPSTART_IMG= "https://graph.org/file/8f14cf3d56319bf00f9c0.mp4"
 
-VEGETA_IMG = ( "https://telegra.ph/file/e2b10d66f725184d73e38.jpg",
-               "https://telegra.ph/file/565d0664230aab507ab22.jpg",
-               "https://telegra.ph/file/3694bdb0d45ffcab58ca5.jpg",)       
+VEGETA_IMG = ( "https://telegra.ph/file/bee68419b3c46504a0afc.mp4",
+               "https://telegra.ph/file/11cedfb26f9256d550f7a.mp4",
+               "https://telegra.ph/file/ef28b83e95fafc2c9e2aa.mp4",
+               "https://telegra.ph/file/176aa27faf8f2657c04f4.mp4",)       
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -194,7 +195,7 @@ def send_help(chat_id, text, keyboard=None):
 def test(update: Update, context: CallbackContext):
     pprint(eval(str(update)))
      # update.effective_message.reply_text("Hola tester! _I_ *have* `markdown`", parse_mode=ParseMode.MARKDOWN)
-    update.effective_message.reply_text("This person edited a message🤡")
+     # update.effective_message.reply_text("This person edited a message🤡")
     print(update.effective_message)
 
 
