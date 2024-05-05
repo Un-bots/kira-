@@ -84,6 +84,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """ ──────「*未知 𝐃ᴀᴢᴀɪ*」──────
 
 ᴏᴡᴡ ᴏᴡᴡ {html.escape(user.first_name)} [❕]({})
+
 I ᴀᴍ ᴀɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇᴅ Aᴅᴠᴀɴᴄᴇᴅ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ ғʀᴏᴍ ʙᴜɴɢᴏ sᴛʀᴀʏ ᴅᴏɢs.
 I ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ Mᴀɴᴀɢᴇ ʏᴏᴜʀ Gʀᴏᴜᴘs ʙʏ ᴍʏ AI-Iɴᴛᴇɢʀᴀᴛᴇᴅ Sᴘᴇᴄɪᴀʟ Fᴇᴀᴛᴜʀᴇs.
 Cʟɪᴄᴋ Hᴇʟᴘ Bᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴏʀ sᴇɴᴅ /help ᴀɴᴅ !help ᴛᴏ Cʜᴇᴄᴋ ᴀʟʟ ᴍʏ Cᴏᴍᴍᴀɴᴅs.
