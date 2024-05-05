@@ -81,9 +81,9 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ ──────「*[未知 𝐃ᴀᴢᴀɪ](https://t.me/dazai_rbot)*」──────
+PM_START_TEXT = """ ──────「*未知 𝐃ᴀᴢᴀɪ*」──────
 
-ᴏᴡᴡ ᴏᴡᴡ {} !.
+ᴏᴡᴡ ᴏᴡᴡ ({}) !.
 I ᴀᴍ ᴀɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇᴅ Aᴅᴠᴀɴᴄᴇᴅ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ ғʀᴏᴍ ʙᴜɴɢᴏ sᴛʀᴀʏ ᴅᴏɢs.
 I ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ Mᴀɴᴀɢᴇ ʏᴏᴜʀ Gʀᴏᴜᴘs ʙʏ ᴍʏ AI-Iɴᴛᴇɢʀᴀᴛᴇᴅ Sᴘᴇᴄɪᴀʟ Fᴇᴀᴛᴜʀᴇs.
 Cʟɪᴄᴋ Hᴇʟᴘ Bᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴏʀ sᴇɴᴅ /help ᴀɴᴅ !help ᴛᴏ Cʜᴇᴄᴋ ᴀʟʟ ᴍʏ Cᴏᴍᴍᴀɴᴅs.
