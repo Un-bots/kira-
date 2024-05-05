@@ -33,7 +33,7 @@ from VegetaRobot.modules.helper_funcs.misc import paginate_modules
 from VegetaRobot.modules.misc import markdown_help_sender
 from VegetaRobot.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
-from telegram.utils.helpers import mention_html
+from telegram.utils.helpers import escape_markdown, mention_html
 from telegram.error import (
     BadRequest,
     ChatMigrated,
@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """ ──────「*未知 𝐃ᴀᴢᴀɪ*」──────
 
-ᴏᴡᴡ ᴏᴡᴡ [❕]({})
+ᴏᴡᴡ ᴏᴡᴡ {html.escape(user.first_name)} [❕]({})
 I ᴀᴍ ᴀɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇᴅ Aᴅᴠᴀɴᴄᴇᴅ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ ғʀᴏᴍ ʙᴜɴɢᴏ sᴛʀᴀʏ ᴅᴏɢs.
 I ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ Mᴀɴᴀɢᴇ ʏᴏᴜʀ Gʀᴏᴜᴘs ʙʏ ᴍʏ AI-Iɴᴛᴇɢʀᴀᴛᴇᴅ Sᴘᴇᴄɪᴀʟ Fᴇᴀᴛᴜʀᴇs.
 Cʟɪᴄᴋ Hᴇʟᴘ Bᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴏʀ sᴇɴᴅ /help ᴀɴᴅ !help ᴛᴏ Cʜᴇᴄᴋ ᴀʟʟ ᴍʏ Cᴏᴍᴍᴀɴᴅs.
@@ -111,7 +111,7 @@ buttons = [
 
 HELP_STRINGS = """ » /help: PM's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
 
-» /help<ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>: PM's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
+» /help <ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>: PM's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
 
 » /donate: ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
 
