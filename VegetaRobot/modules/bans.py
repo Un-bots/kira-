@@ -43,9 +43,9 @@ from VegetaRobot.modules.log_channel import gloggable, loggable
 
 
     
-UNBAN_IMG= "https://telegra.ph/file/c82f7d1b84aecaaf7f43a.jpg"
-BAN_IMG= "https://telegra.ph/file/c82f7d1b84aecaaf7f43a.jpg"
-SELF_KICK_IMG= "https://telegra.ph/file/c82f7d1b84aecaaf7f43a.jpg"
+UNBAN_IMG= "https://telegra.ph/file/029b3b33eb94e2d32b70c.mp4"
+BAN_IMG= "https://telegra.ph/file/8f940f08ab63b71c1c02f.mp4"
+SELF_KICK_IMG= "https://telegra.ph/file/8c5091ce77537124dc3d2.mp4"
 
 
 @connection_status
@@ -410,7 +410,7 @@ def punchme(update: Update, context: CallbackContext):
 
     res = update.effective_chat.unban_member(user_id)  # unban on current user = kick
     if res:
-        update.effective_message.reply_animation(SELF_KICK_IMG,caption="<b>❕Baka Noice Try!</b>",parse_mode=ParseMode.HTML,)
+        update.effective_message.reply_animation(SELF_KICK_IMG,caption="<b>ɴᴏɪᴄᴇ👀 ᴄʜᴀʟ ᴀʙ ɴɪᴋᴀʟ😗</b>",parse_mode=ParseMode.HTML,)
                                              
     else:
         update.effective_message.reply_text("Huh? I can't :/")
