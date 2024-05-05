@@ -81,12 +81,12 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
+PM_START_TEXT = """ ──────「*[未知 𝐃ᴀᴢᴀɪ](https://t.me/dazai_rbot)*」──────
 
-~~ *I'm made with Saiyans blood* ~~
-
-~ *Wanna see my commands*[❗]({})
-*below click the help button!* ~
+ᴏᴡᴡ ᴏᴡᴡ {} !.
+I ᴀᴍ ᴀɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇᴅ Aᴅᴠᴀɴᴄᴇᴅ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ ғʀᴏᴍ ʙᴜɴɢᴏ sᴛʀᴀʏ ᴅᴏɢs.
+I ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ Mᴀɴᴀɢᴇ ʏᴏᴜʀ Gʀᴏᴜᴘs ʙʏ ᴍʏ AI-Iɴᴛᴇɢʀᴀᴛᴇᴅ Sᴘᴇᴄɪᴀʟ Fᴇᴀᴛᴜʀᴇs.
+Cʟɪᴄᴋ Hᴇʟᴘ Bᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴏʀ sᴇɴᴅ /help ᴀɴᴅ !help ᴛᴏ Cʜᴇᴄᴋ ᴀʟʟ ᴍʏ Cᴏᴍᴍᴀɴᴅs.
 
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """ 
@@ -109,15 +109,21 @@ buttons = [
     ],
 ] 
 
-HELP_STRINGS = """ *Hello There! Here you can get all of the help commands!
-- /donate - Steps to Donate Bot Owner 
-- /help (modulename): you also get the about the module.
-- /settings - in this work group only chat!
-Below Click the module you know about module commands!*
+HELP_STRINGS = """ » /help: PM's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
+
+» /help<ᴍᴏᴅᴜʟᴇ ɴᴀᴍᴇ>: PM's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
+
+» /donate: ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
+
+» /settings: ɪɴ ᴛʜɪs ᴡᴏʀᴋ ᴏɴʟʏ ᴄʜᴀᴛ!
+
+» Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.
+
+» ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ
 """
 
-HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """*don't need donate I'm free for everyone add your group's in @dazai_rbot this is my donate🙂*"""
+HELP_MSG = "Cʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴀɴᴜ ɪɴ ʏᴏᴜʀ ᴘᴍ."
+DONATE_STRING = """*ᴅᴏɴ'ᴛ ɴᴇᴇᴅ ᴅᴏɴᴀᴛᴇ I'ᴍ ғʀᴇᴇ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ ᴀᴅᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ɪɴ @dazai_rbot ᴛʜɪs ɪs ᴍʏ ᴅᴏɴᴀᴛᴇ🙂*"""
 HELP_IMG= "https://telegra.ph/file/3cb2aaeb08021c02feb29.jpg"
 GROUPSTART_IMG= "https://telegra.ph/file/3cb2aaeb08021c02feb29.jpg"
 
