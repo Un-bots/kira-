@@ -17,6 +17,10 @@ class Config(object):
     # REQUIRED
     #Login to https://my.telegram.org and fill in these slots with the details given by it
 
+    STATS = D
+    STATS_IMAGE = X
+
+    
     API_ID = 12345   # integer value, dont use ""
     API_HASH = "awew"
     TOKEN = "wow"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
