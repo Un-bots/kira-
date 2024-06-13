@@ -32,7 +32,7 @@ Your star's my motivation 😞 Going to fork hit a star 😊 | thanks for suppor
 - `API_ID`| `API_HARISH`|
 - `TOKEN`| ɴᴏᴡ ʙᴏᴛ ʀᴜɴs ʀᴀɪʟᴡᴀʏ!
 
-   [![Deploy To Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Ctzfamily/VegetaRobot)
+   [![Deploy To Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/un-bots/kira-)
 
 <details><summary>Deploy To VPS</summary>
 <p>
