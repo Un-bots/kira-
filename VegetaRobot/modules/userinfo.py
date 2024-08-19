@@ -250,7 +250,7 @@ def info(update: Update, context: CallbackContext):
         return
 
     rep = message.reply_text(
-        "<code> Connecting to unb database </code>", parse_mode=ParseMode.HTML)
+        "<code> collection information </code>", parse_mode=ParseMode.HTML)
 
     text = (f"╒═══「<b> **User information**:</b> 」\n"
             f"ID: <code>{user.id}</code>\n"
@@ -288,7 +288,7 @@ def info(update: Update, context: CallbackContext):
         if spamwtc:
             text += "\n\n<b>This person is Spamwatched!</b>"
             text += f"\nReason: <pre>{spamwtc.reason}</pre>"
-            text += "\nAppeal at @SpamWatchSupport"
+            text += "\nAppeal at @un_w0rld"
         else:
             pass
     except:
