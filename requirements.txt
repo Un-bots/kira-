@@ -55,7 +55,7 @@ CurrencyConverter
 googletrans==4.0.0-rc1
 google_trans_new
 pyrate-limiter
-nekos.py
+
 tgcrypto
 Python_ARQ
 hachoir
